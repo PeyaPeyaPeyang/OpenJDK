@@ -62,13 +62,13 @@ import static java.net.http.HttpOption.H3_DISCOVERY;
  *          slow server.
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.httpclient.test.lib.common.HttpServerAdapters jdk.test.lib.net.SimpleSSLContext
- *        DigestEchoServer HttpSlowServerTest
+ *        DigestEchoServer
  *        jdk.httpclient.test.lib.common.TestServerConfigurator
  * @run main/othervm/timeout=480 -Dtest.requiresHost=true
  *                   -Djdk.httpclient.HttpClient.log=errors,headers,quic:hs
  *                   -Djdk.internal.httpclient.debug=false
  *                   -Djdk.httpclient.quic.maxInitialTimeout=60
- *                   HttpSlowServerTest
+ *                   ${test.main.class}
  *
  */
 public class HttpSlowServerTest implements HttpServerAdapters {

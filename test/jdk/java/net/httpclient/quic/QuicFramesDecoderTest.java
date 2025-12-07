@@ -37,7 +37,7 @@ import static org.testng.Assert.*;
  * @test
  * @library /test/lib
  * @summary Tests to check QUIC frame decoding errors are handled correctly
- * @run testng/othervm QuicFramesDecoderTest
+ * @run testng/othervm ${test.main.class}
  */
 public class QuicFramesDecoderTest {
 

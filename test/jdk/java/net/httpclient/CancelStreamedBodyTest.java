@@ -28,9 +28,9 @@
  *      without reading all the bytes unregisters the underlying subscriber.
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.httpclient.test.lib.common.HttpServerAdapters jdk.test.lib.net.SimpleSSLContext
- *        ReferenceTracker CancelStreamedBodyTest
+ *        ReferenceTracker
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
- *                     CancelStreamedBodyTest
+ *                     ${test.main.class}
  */
 import jdk.test.lib.net.SimpleSSLContext;
 import org.testng.ITestContext;

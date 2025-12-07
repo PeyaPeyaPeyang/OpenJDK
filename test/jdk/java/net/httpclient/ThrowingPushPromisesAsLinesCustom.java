@@ -28,9 +28,9 @@
  *          response body handlers and subscribers throw unexpected exceptions.
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.test.lib.net.SimpleSSLContext
- *        ReferenceTracker AbstractThrowingPushPromises ThrowingPushPromisesAsLinesCustom
+ *        ReferenceTracker AbstractThrowingPushPromises
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
- * @run testng/othervm -Djdk.internal.httpclient.debug=true ThrowingPushPromisesAsLinesCustom
+ * @run testng/othervm -Djdk.internal.httpclient.debug=true ${test.main.class}
  */
 
 import org.testng.annotations.Test;

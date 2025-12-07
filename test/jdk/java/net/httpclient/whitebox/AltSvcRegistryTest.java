@@ -78,7 +78,7 @@ import static java.net.http.HttpResponse.BodyHandlers.ofString;
  *                   -Djdk.httpclient.HttpClient.log=headers
  *                   -Djdk.internal.httpclient.disableHostnameVerification
  *                   -Djdk.internal.httpclient.debug=true
- *                    AltSvcRegistryTest
+ *                    ${test.main.class}
  */
 
 

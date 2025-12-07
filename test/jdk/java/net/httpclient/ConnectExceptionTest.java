@@ -25,7 +25,7 @@
  * @test
  * @summary Expect ConnectException for all non-security related connect errors
  * @bug 8204864
- * @run testng/othervm -Djdk.net.hosts.file=HostFileDoesNotExist ConnectExceptionTest
+ * @run testng/othervm -Djdk.net.hosts.file=HostFileDoesNotExist ${test.main.class}
  */
 
 import java.io.IOException;

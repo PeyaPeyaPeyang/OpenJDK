@@ -28,7 +28,7 @@
  * @run testng/othervm
  *       -Djdk.internal.httpclient.debug=true
  *       -Djdk.httpclient.HttpClient.log=errors,requests,responses
- *       ServerPushWithDiffTypes
+ *       ${test.main.class}
  */
 
 import java.io.*;

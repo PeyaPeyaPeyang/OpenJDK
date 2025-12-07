@@ -40,7 +40,7 @@ import java.nio.channels.spi.SelectorProvider;
  * @summary The test checks if UncheckedIOException is thrown
  * @build  HttpClientExceptionTest
  * @run testng/othervm -Djava.nio.channels.spi.SelectorProvider=HttpClientExceptionTest$CustomSelectorProvider
- *                      HttpClientExceptionTest
+ *                      ${test.main.class}
  */
 
 public class HttpClientExceptionTest {

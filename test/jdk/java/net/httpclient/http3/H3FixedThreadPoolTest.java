@@ -32,7 +32,7 @@
  * @compile ../ReferenceTracker.java
  * @run testng/othervm  -Djdk.internal.httpclient.debug=err
  *                      -Djdk.httpclient.HttpClient.log=ssl,headers,requests,responses,errors
- *                       H3FixedThreadPoolTest
+ *                       ${test.main.class}
  */
 
 import java.net.URI;

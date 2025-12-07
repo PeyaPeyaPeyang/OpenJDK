@@ -81,7 +81,7 @@ import static org.testng.Assert.assertTrue;
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build ReferenceTracker jdk.httpclient.test.lib.http2.Http2TestServer
  *        jdk.test.lib.net.SimpleSSLContext
- * @run testng/othervm -XX:+UnlockDiagnosticVMOptions -XX:DiagnoseSyncOnValueBasedClasses=1 LineBodyHandlerTest
+ * @run testng/othervm -XX:+UnlockDiagnosticVMOptions -XX:DiagnoseSyncOnValueBasedClasses=1 ${test.main.class}
  */
 
 public class LineBodyHandlerTest implements HttpServerAdapters {

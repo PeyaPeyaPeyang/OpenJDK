@@ -60,7 +60,7 @@ import java.util.concurrent.atomic.AtomicReference;
  *          java.net.http/jdk.internal.net.http.http3
  * @build EncoderDecoderConnector
  * @run testng/othervm -Djdk.http.qpack.allowBlockingEncoding=true
- *                      StringLengthLimitsTest
+ *                      ${test.main.class}
  */
 public class StringLengthLimitsTest {
 

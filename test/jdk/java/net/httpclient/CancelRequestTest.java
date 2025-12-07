@@ -28,10 +28,10 @@
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @key randomness
  * @build jdk.httpclient.test.lib.common.HttpServerAdapters jdk.test.lib.net.SimpleSSLContext
- *        ReferenceTracker CancelRequestTest
+ *        ReferenceTracker
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
  *                     -Djdk.httpclient.enableAllMethodRetry=true
- *                     CancelRequestTest
+ *                     ${test.main.class}
  */
 // *                     -Dseed=3582896013206826205L
 // *                     -Dseed=5784221742235559231L

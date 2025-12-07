@@ -33,10 +33,10 @@
  * @requires (vm.compMode != "Xcomp")
  * @run testng/othervm/timeout=480
  *       -Djdk.httpclient.HttpClient.log=requests,headers,errors
- *       SpecialHeadersTest
+ *       ${test.main.class}
  * @run testng/othervm/timeout=480 -Djdk.httpclient.allowRestrictedHeaders=Host
  *       -Djdk.httpclient.HttpClient.log=requests,headers,errors
- *       SpecialHeadersTest
+ *       ${test.main.class}
  */
 
 import com.sun.net.httpserver.HttpServer;

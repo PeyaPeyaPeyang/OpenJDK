@@ -87,7 +87,7 @@ import static org.testng.Assert.assertTrue;
  *                   -Djdk.httpclient.HttpClient.log=headers
  *                   -Djdk.internal.httpclient.disableHostnameVerification
  *                   -Djdk.internal.httpclient.debug=true
- *                    AltSvcFrameTest
+ *                    ${test.main.class}
  */
 
 

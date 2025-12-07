@@ -26,13 +26,13 @@
  * @summary checks that receiving 403 for a HEAD request after
  *          401/407 doesn't cause any unexpected behavior.
  * @library /test/lib /test/jdk/java/net/httpclient/lib
- * @build DigestEchoServer ForbiddenHeadTest jdk.httpclient.test.lib.common.HttpServerAdapters
+ * @build DigestEchoServer jdk.httpclient.test.lib.common.HttpServerAdapters
  *        jdk.test.lib.net.SimpleSSLContext
  * @run testng/othervm
  *       -Djdk.http.auth.tunneling.disabledSchemes
  *       -Djdk.httpclient.HttpClient.log=headers,requests
  *       -Djdk.internal.httpclient.debug=true
- *       ForbiddenHeadTest
+ *       ${test.main.class}
  */
 
 import jdk.test.lib.net.SimpleSSLContext;

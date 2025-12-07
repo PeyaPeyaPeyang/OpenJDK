@@ -29,7 +29,7 @@
  *        jdk.httpclient.test.lib.common.TestServerConfigurator
  * @run testng/othervm
  *       -Djdk.internal.httpclient.debug=true
- *      MappingResponseSubscriber
+ *      ${test.main.class}
  */
 
 import java.io.IOException;

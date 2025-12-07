@@ -28,6 +28,6 @@
  * @run main/othervm
  *      --add-reads java.net.http=ALL-UNNAMED
  *      --add-reads java.net.http=jdk.httpserver
- *      java.net.http/jdk.internal.net.http.websocket.WebSocketAndHttpTest
+ *      java.net.http/jdk.internal.net.http.websocket.${test.main.class}
  */
 public final class WebSocketServerDriver { }

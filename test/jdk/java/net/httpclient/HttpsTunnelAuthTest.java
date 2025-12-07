@@ -50,12 +50,12 @@ import static java.lang.System.out;
  *          The test also helps verifying the fix for 8262027.
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.httpclient.test.lib.common.HttpServerAdapters jdk.test.lib.net.SimpleSSLContext
- *        ProxyServer HttpsTunnelAuthTest
+ *        ProxyServer
  * @run main/othervm -Djdk.httpclient.HttpClient.log=requests,headers,errors
  *                   -Djdk.http.auth.tunneling.disabledSchemes
  *                   -Djdk.httpclient.allowRestrictedHeaders=connection
  *                   -Djdk.internal.httpclient.debug=true
- *                   HttpsTunnelAuthTest
+ *                   ${test.main.class}
  *
  */
 //-Djdk.internal.httpclient.debug=true -Dtest.debug=true

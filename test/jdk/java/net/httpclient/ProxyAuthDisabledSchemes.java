@@ -30,17 +30,17 @@
  * @bug 8087112 8262294
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.test.lib.net.SimpleSSLContext DigestEchoServer DigestEchoClient
- *        ReferenceTracker ProxyAuthDisabledSchemes
+ *        ReferenceTracker
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
  * @run main/othervm -Djdk.http.auth.proxying.disabledSchemes=Basic,Digest
  *                   -Djdk.http.auth.tunneling.disabledSchemes=Digest,Basic
- *                   ProxyAuthDisabledSchemes
+ *                   ${test.main.class}
  * @run main/othervm -Djdk.http.auth.proxying.disabledSchemes=Basic
  *                   -Djdk.http.auth.tunneling.disabledSchemes=Basic
- *                   ProxyAuthDisabledSchemes CLEAR PROXY
+ *                   ${test.main.class} CLEAR PROXY
  * @run main/othervm -Djdk.http.auth.proxying.disabledSchemes=Digest
  *                   -Djdk.http.auth.tunneling.disabledSchemes=Digest
- *                   ProxyAuthDisabledSchemes CLEAR PROXY
+ *                   ${test.main.class} CLEAR PROXY
  */
 
 public class ProxyAuthDisabledSchemes {

@@ -72,7 +72,7 @@ import static org.testng.Assert.assertTrue;
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.httpclient.test.lib.common.HttpServerAdapters
  *        jdk.test.lib.net.SimpleSSLContext
- * @run testng/othervm -Djdk.internal.httpclient.debug=true FlowAdapterSubscriberTest
+ * @run testng/othervm -Djdk.internal.httpclient.debug=true ${test.main.class}
  */
 
 public class FlowAdapterSubscriberTest implements HttpServerAdapters {

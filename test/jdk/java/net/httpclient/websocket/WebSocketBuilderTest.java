@@ -26,7 +26,7 @@
  * @bug 8159053
  * @build DummyWebSocketServer
  *        Support
- * @run testng/othervm WebSocketBuilderTest
+ * @run testng/othervm ${test.main.class}
  */
 
 import org.testng.annotations.DataProvider;

@@ -50,11 +50,11 @@ import static org.testng.Assert.assertTrue;
  * @summary tests the reordering logic implemented by OrderedFlow
  *          and its two concrete subclasses
  * @library /test/lib
- * @run testng OrderedFlowTest
- * @run testng/othervm -Dseed=-2680947227866359853 OrderedFlowTest
- * @run testng/othervm -Dseed=-273117134353023275 OrderedFlowTest
- * @run testng/othervm -Dseed=3649132517916066643 OrderedFlowTest
- * @run testng/othervm -Dseed=4568737726943220431 OrderedFlowTest
+ * @run testng ${test.main.class}
+ * @run testng/othervm -Dseed=-2680947227866359853 ${test.main.class}
+ * @run testng/othervm -Dseed=-273117134353023275 ${test.main.class}
+ * @run testng/othervm -Dseed=3649132517916066643 ${test.main.class}
+ * @run testng/othervm -Dseed=4568737726943220431 ${test.main.class}
  */
 public class OrderedFlowTest {
 

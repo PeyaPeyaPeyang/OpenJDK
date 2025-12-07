@@ -55,7 +55,7 @@ import static java.net.http.HttpOption.Http3DiscoveryMode.HTTP_3_URI_ONLY;
  *
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
  *                     -Djdk.httpclient.HttpClient.log=requests,responses,errors
- *                     AltServiceUsageTest
+ *                     ${test.main.class}
  */
 public class AltServiceUsageTest implements HttpServerAdapters {
 

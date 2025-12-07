@@ -34,7 +34,7 @@ import static org.testng.Assert.*;
 
 /**
  * @test
- * @run testng/othervm ConnectionIDSTest
+ * @run testng/othervm ${test.main.class}
  */
 public class ConnectionIDSTest {
 

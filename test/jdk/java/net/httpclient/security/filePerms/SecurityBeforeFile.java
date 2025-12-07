@@ -25,7 +25,7 @@
  * @test
  * @summary Verifies security checks are performed before existence checks
  *          in pre-defined body processors APIs
- * @run testng/othervm SecurityBeforeFile
+ * @run testng/othervm ${test.main.class}
  */
 
 import java.io.FileNotFoundException;

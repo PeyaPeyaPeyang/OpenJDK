@@ -64,7 +64,7 @@ import static java.net.http.HttpClient.Version.HTTP_2;
  *      -Djdk.httpclient.HttpClient.log=frames,ssl,requests,responses,errors
  *      -Djdk.internal.httpclient.debug=true
  *      -Dsun.net.httpserver.idleInterval=50000
- *      HttpClientLocalAddrTest
+ *      ${test.main.class}
  *
  */
 public class HttpClientLocalAddrTest implements HttpServerAdapters {

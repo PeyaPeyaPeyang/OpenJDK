@@ -39,7 +39,7 @@ import static org.testng.Assert.assertTrue;
 
 /*
  * @test
- * @run testng/othervm -Djdk.httpclient.quic.timerFrequency=1000 PacerTest
+ * @run testng/othervm -Djdk.httpclient.quic.timerFrequency=1000 ${test.main.class}
  */
 public class PacerTest {
 

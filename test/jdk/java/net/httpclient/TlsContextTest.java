@@ -54,13 +54,13 @@ import jdk.test.lib.security.SecurityUtils;
  * @bug 8239594 8371887
  * @summary This test verifies that the TLS version handshake respects ssl context
  * @library /test/lib /test/jdk/java/net/httpclient/lib
- * @build jdk.test.lib.net.SimpleSSLContext TlsContextTest
+ * @build jdk.test.lib.net.SimpleSSLContext
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
  * @run testng/othervm -Dtest.requiresHost=true
  *                   -Djdk.httpclient.HttpClient.log=headers
  *                   -Djdk.internal.httpclient.disableHostnameVerification
  *                   -Djdk.internal.httpclient.debug=false
- *                    TlsContextTest
+ *                    ${test.main.class}
  */
 
 public class TlsContextTest implements HttpServerAdapters {

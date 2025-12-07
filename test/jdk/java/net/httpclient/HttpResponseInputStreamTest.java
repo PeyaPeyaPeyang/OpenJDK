@@ -46,7 +46,7 @@ import static org.testng.Assert.*;
  * @test
  * @bug 8197564 8228970
  * @summary Simple smoke test for BodySubscriber.asInputStream();
- * @run testng/othervm HttpResponseInputStreamTest
+ * @run testng/othervm ${test.main.class}
  * @author daniel fuchs
  */
 public class HttpResponseInputStreamTest {

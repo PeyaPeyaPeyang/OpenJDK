@@ -39,7 +39,7 @@ import static org.testng.Assert.expectThrows;
  * @test
  * @library /test/lib
  * @modules java.net.http/jdk.internal.net.http.quic
- * @run testng/othervm VariableLengthTest
+ * @run testng/othervm ${test.main.class}
  * @summary Tests to check quic/util methods encode/decodeVariableLength methods
  *  work as expected.
  */

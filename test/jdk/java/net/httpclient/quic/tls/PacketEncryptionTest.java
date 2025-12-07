@@ -50,7 +50,7 @@ import static org.testng.Assert.fail;
  *          java.base/jdk.internal.net.quic
  * @build java.base/sun.security.ssl.QuicTLSEngineImplAccessor
  * @summary known-answer test for packet encryption and decryption
- * @run testng/othervm PacketEncryptionTest
+ * @run testng/othervm ${test.main.class}
  */
 public class PacketEncryptionTest {
 

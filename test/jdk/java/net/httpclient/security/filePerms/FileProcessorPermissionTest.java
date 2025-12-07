@@ -24,7 +24,7 @@
 /*
  * @test
  * @summary Basic checks for File Processors
- * @run testng/othervm FileProcessorPermissionTest
+ * @run testng/othervm ${test.main.class}
  */
 
 import java.nio.file.Path;

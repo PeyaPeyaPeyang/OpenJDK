@@ -57,7 +57,7 @@ import static org.testng.Assert.expectThrows;
  *        jdk.httpclient.test.lib.common.TestUtil
  *        jdk.httpclient.test.lib.quic.ClientConnection
  *        jdk.test.lib.net.SimpleSSLContext
- * @run testng/othervm -Djdk.internal.httpclient.debug=true VersionNegotiationTest
+ * @run testng/othervm -Djdk.internal.httpclient.debug=true ${test.main.class}
  */
 public class VersionNegotiationTest {
 

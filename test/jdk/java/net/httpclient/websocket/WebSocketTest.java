@@ -28,7 +28,7 @@
  * @build DummyWebSocketServer
  *        java.net.http/jdk.internal.net.http.HttpClientTimerAccess
  * @run testng/othervm
- *       WebSocketTest
+ *       ${test.main.class}
  */
 
 import org.testng.annotations.DataProvider;

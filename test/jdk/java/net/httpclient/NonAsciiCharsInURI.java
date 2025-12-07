@@ -31,7 +31,7 @@
  * @compile -encoding utf-8 NonAsciiCharsInURI.java
  * @run testng/othervm
  *       -Djdk.httpclient.HttpClient.log=requests,headers,errors,quic
- *       NonAsciiCharsInURI
+ *       ${test.main.class}
  */
 
 import java.io.Closeable;

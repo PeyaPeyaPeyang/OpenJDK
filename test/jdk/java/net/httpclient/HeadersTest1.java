@@ -26,7 +26,7 @@
  * @bug 8153142 8195138
  * @modules java.net.http
  *          jdk.httpserver
- * @run testng/othervm HeadersTest1
+ * @run testng/othervm ${test.main.class}
  */
 
 import java.io.IOException;

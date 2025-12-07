@@ -83,7 +83,7 @@ import static org.testng.Assert.*;
  * @build java.net.http/jdk.internal.net.http.Http3ConnectionAccess
  * @run testng/othervm
  *              -Djdk.internal.httpclient.debug=true
- *              -Djdk.httpclient.HttpClient.log=requests,responses,errors H3ErrorHandlingTest
+ *              -Djdk.httpclient.HttpClient.log=requests,responses,errors ${test.main.class}
  */
 public class H3ErrorHandlingTest implements HttpServerAdapters {
 

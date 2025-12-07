@@ -62,7 +62,7 @@ import static org.testng.Assert.fail;
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.httpclient.test.lib.common.HttpServerAdapters
  *        jdk.test.lib.net.SimpleSSLContext
- * @run testng/othervm -Djdk.internal.httpclient.debug=err FlowAdapterPublisherTest
+ * @run testng/othervm -Djdk.internal.httpclient.debug=err ${test.main.class}
  */
 
 public class FlowAdapterPublisherTest implements HttpServerAdapters {

@@ -60,7 +60,7 @@ import static java.net.http.HttpOption.H3_DISCOVERY;
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
  * @compile ../ReferenceTracker.java
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
- *             -Djdk.httpclient.HttpClient.log=requests,responses,errors StopSendingTest
+ *             -Djdk.httpclient.HttpClient.log=requests,responses,errors ${test.main.class}
  */
 public class StopSendingTest implements HttpServerAdapters {
 

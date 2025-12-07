@@ -72,9 +72,9 @@ import static java.net.Proxy.NO_PROXY;
  *          and proxy are HTTP/1.1
  * @modules java.net.http/jdk.internal.net.http.common
  * @library /test/lib /test/jdk/java/net/httpclient/lib
- * @build jdk.test.lib.net.SimpleSSLContext ProxyTest
+ * @build jdk.test.lib.net.SimpleSSLContext
  *        jdk.httpclient.test.lib.common.TestServerConfigurator
- * @run main/othervm ProxyTest
+ * @run main/othervm ${test.main.class}
  * @author danielfuchs
  */
 public class ProxyTest {

@@ -24,7 +24,7 @@
 /*
  * @test
  * @summary Tests for HttpHeaders.of factory method
- * @run testng HttpHeadersOf
+ * @run testng ${test.main.class}
  */
 
 import java.net.http.HttpHeaders;

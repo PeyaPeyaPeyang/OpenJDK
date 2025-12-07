@@ -60,7 +60,7 @@ import static org.testng.Assert.fail;
  *          java.net.http/jdk.internal.net.http.http3.frames
  *          java.net.http/jdk.internal.net.http.http3
  * @build EncoderDecoderConnector
- * @run testng/othervm EncoderDecoderTest
+ * @run testng/othervm ${test.main.class}
  */
 public class EncoderDecoderTest {
     private final Random random = new Random();

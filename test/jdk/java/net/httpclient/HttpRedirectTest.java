@@ -68,13 +68,13 @@ import jdk.httpclient.test.lib.common.HttpServerAdapters;
  * @bug 8232625
  * @summary This test verifies that the HttpClient works correctly when redirecting a post request.
  * @library /test/lib /test/jdk/java/net/httpclient/lib
- * @build jdk.test.lib.net.SimpleSSLContext DigestEchoServer HttpRedirectTest
+ * @build jdk.test.lib.net.SimpleSSLContext DigestEchoServer
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
  *        jdk.httpclient.test.lib.common.TestServerConfigurator
  * @run testng/othervm -Dtest.requiresHost=true
  *                   -Djdk.httpclient.HttpClient.log=headers
  *                   -Djdk.internal.httpclient.debug=false
- *                   HttpRedirectTest
+ *                   ${test.main.class}
  *
  */
 public class HttpRedirectTest implements HttpServerAdapters {

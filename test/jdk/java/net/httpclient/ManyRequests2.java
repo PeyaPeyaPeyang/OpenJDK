@@ -32,17 +32,17 @@
  * @compile ../../../com/sun/net/httpserver/LogFilter.java
  * @compile ../../../com/sun/net/httpserver/EchoHandler.java
  * @compile ../../../com/sun/net/httpserver/FileServerHandler.java
- * @build ManyRequests ManyRequests2
+ * @build ManyRequests
  * @run main/othervm/timeout=400 -Dsun.net.httpserver.idleInterval=400 -Dtest.XFixed=true
- *                              -Djdk.httpclient.HttpClient.log=channel ManyRequests2
+ *                              -Djdk.httpclient.HttpClient.log=channel ${test.main.class}
  * @run main/othervm/timeout=400 -Dsun.net.httpserver.idleInterval=400 -Dtest.XFixed=true -Dtest.insertDelay=true
- *                              -Djdk.httpclient.HttpClient.log=channel ManyRequests2
+ *                              -Djdk.httpclient.HttpClient.log=channel ${test.main.class}
  * @run main/othervm/timeout=400 -Dsun.net.httpserver.idleInterval=400 -Dtest.XFixed=true -Dtest.chunkSize=64
- *                              -Djdk.httpclient.HttpClient.log=channel ManyRequests2
+ *                              -Djdk.httpclient.HttpClient.log=channel ${test.main.class}
  * @run main/othervm/timeout=400 -Dsun.net.httpserver.idleInterval=400 -Djdk.internal.httpclient.debug=true
  *                              -Djdk.httpclient.HttpClient.log=channel
  *                              -Dtest.XFixed=true -Dtest.insertDelay=true
- *                              -Dtest.chunkSize=64 ManyRequests2
+ *                              -Dtest.chunkSize=64 ${test.main.class}
  * @summary Send a large number of requests asynchronously.
  *          The server echoes back using known content length.
  */

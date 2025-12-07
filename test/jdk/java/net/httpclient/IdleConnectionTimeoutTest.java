@@ -69,27 +69,27 @@ import static org.testng.Assert.assertEquals;
  *        jdk.httpclient.test.lib.http3.Http3TestServer
  *
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout=1
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout=20
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  *
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout.h2=1
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout.h2=20
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout.h2=abc
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout.h2=-1
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  *
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout.h3=1
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout.h3=20
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout.h3=abc
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=all -Djdk.httpclient.keepalive.timeout.h3=-1
- *                                                             IdleConnectionTimeoutTest
+ *                                                             ${test.main.class}
  */
 public class IdleConnectionTimeoutTest {
 

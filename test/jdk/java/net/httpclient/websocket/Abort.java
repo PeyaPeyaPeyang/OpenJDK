@@ -26,7 +26,7 @@
  * @build DummyWebSocketServer
  * @run testng/othervm
  *      -Djdk.internal.httpclient.websocket.debug=true
- *       Abort
+ *       ${test.main.class}
  */
 
 import org.testng.annotations.Test;

@@ -35,7 +35,7 @@ import static org.testng.Assert.fail;
  * SSLcontext used by HttpClient are not available
  * @build SSLExceptionTest
  * @run testng/othervm -Djdk.tls.client.protocols="InvalidTLSv1.4"
- *                      SSLExceptionTest
+ *                      ${test.main.class}
  */
 
 public class SSLExceptionTest  {

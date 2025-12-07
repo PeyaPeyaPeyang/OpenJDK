@@ -26,10 +26,10 @@
  * @bug 8252374
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.test.lib.net.SimpleSSLContext jdk.httpclient.test.lib.common.HttpServerAdapters
- *       ReferenceTracker AggregateRequestBodyTest
+ *       ReferenceTracker
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
  *                     -Djdk.httpclient.HttpClient.log=requests,responses,errors,headers,frames
- *                     AggregateRequestBodyTest
+ *                     ${test.main.class}
  * @summary Tests HttpRequest.BodyPublishers::concat
  */
 

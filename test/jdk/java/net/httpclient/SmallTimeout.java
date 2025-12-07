@@ -46,7 +46,7 @@ import static java.lang.System.out;
  * @bug 8178147
  * @modules java.net.http/jdk.internal.net.http.common
  * @summary Ensures that small timeouts do not cause hangs due to race conditions
- * @run main/othervm -Djdk.internal.httpclient.debug=true SmallTimeout
+ * @run main/othervm -Djdk.internal.httpclient.debug=true ${test.main.class}
  */
 
 // To enable logging use. Not enabled by default as it changes the dynamics

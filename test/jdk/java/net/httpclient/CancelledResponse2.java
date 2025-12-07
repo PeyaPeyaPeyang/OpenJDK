@@ -65,7 +65,7 @@ import static org.testng.Assert.assertTrue;
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.test.lib.net.SimpleSSLContext
  * @compile ReferenceTracker.java
- * @run testng/othervm -Djdk.internal.httpclient.debug=true CancelledResponse2
+ * @run testng/othervm -Djdk.internal.httpclient.debug=true ${test.main.class}
  */
 // -Djdk.internal.httpclient.debug=true
 public class CancelledResponse2 implements HttpServerAdapters {

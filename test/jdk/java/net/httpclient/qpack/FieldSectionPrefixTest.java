@@ -30,7 +30,7 @@
  *          java.net.http/jdk.internal.net.http.http3.streams
  *          java.net.http/jdk.internal.net.http.http3.frames
  *          java.net.http/jdk.internal.net.http.http3
- * @run testng FieldSectionPrefixTest
+ * @run testng ${test.main.class}
  */
 
 

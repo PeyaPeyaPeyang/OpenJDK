@@ -65,7 +65,7 @@ import static org.testng.Assert.*;
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
  * @run testng/othervm
  *              -Djdk.httpclient.HttpClient.log=errors
- *              H3LogHandshakeErrors
+ *              ${test.main.class}
  */
 // -Djava.security.debug=all
 public class H3LogHandshakeErrors implements HttpServerAdapters {

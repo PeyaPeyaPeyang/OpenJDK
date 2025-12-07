@@ -29,9 +29,8 @@
  * @bug 8217094
  * @modules java.net.http
  *          java.logging
- * @build ALPNFailureTest
- * @run main/othervm -Djdk.internal.httpclient.debug=true ALPNFailureTest HTTP_1_1
- * @run main/othervm ALPNFailureTest HTTP_2
+ * @run main/othervm -Djdk.internal.httpclient.debug=true ${test.main.class} HTTP_1_1
+ * @run main/othervm ${test.main.class} HTTP_2
  */
 import javax.net.ServerSocketFactory;
 import javax.net.ssl.SSLContext;

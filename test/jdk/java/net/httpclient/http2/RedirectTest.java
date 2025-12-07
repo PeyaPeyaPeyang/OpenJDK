@@ -34,7 +34,7 @@
  * @run testng/othervm
  *      -Djdk.httpclient.HttpClient.log=frames,ssl,requests,responses,errors
  *      -Djdk.internal.httpclient.debug=true
- *      RedirectTest
+ *      ${test.main.class}
  */
 
 import java.net.InetSocketAddress;

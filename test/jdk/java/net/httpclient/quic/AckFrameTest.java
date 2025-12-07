@@ -51,7 +51,7 @@ import static org.testng.Assert.assertFalse;
  * @test
  * @summary tests the logic to build an AckFrame
  * @library /test/lib
- * @run testng AckFrameTest
+ * @run testng ${test.main.class}
  */
 public class AckFrameTest {
 

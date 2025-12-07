@@ -27,9 +27,9 @@
  *          throw unexpected exceptions.
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.test.lib.net.SimpleSSLContext
- *        ReferenceTracker ThrowingSubscribersAsInputStreamAsync AbstractThrowingSubscribers
+ *        ReferenceTracker AbstractThrowingSubscribers
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
- * @run testng/othervm -Djdk.internal.httpclient.debug=true ThrowingSubscribersAsInputStreamAsync
+ * @run testng/othervm -Djdk.internal.httpclient.debug=true ${test.main.class}
  */
 
 import org.testng.annotations.Test;

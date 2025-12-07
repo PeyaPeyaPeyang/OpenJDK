@@ -25,7 +25,7 @@
  * @test
  * @run testng/othervm
  *      -Djdk.internal.httpclient.debug=out
- *      PeerUniStreamDispatcherTest
+ *      ${test.main.class}
  * @summary Unit test for the PeerUniStreamDispatcher
  */
 

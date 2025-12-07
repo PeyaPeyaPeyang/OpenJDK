@@ -27,13 +27,13 @@
  * @summary checks that a different proxy returned for
  *          the same host:port is taken into account
  * @library /test/lib /test/jdk/java/net/httpclient/lib
- * @build DigestEchoServer ProxySelectorTest jdk.httpclient.test.lib.http2.Http2TestServer
+ * @build DigestEchoServer jdk.httpclient.test.lib.http2.Http2TestServer
  *        jdk.test.lib.net.SimpleSSLContext
  * @run testng/othervm
  *       -Djdk.http.auth.tunneling.disabledSchemes
  *       -Djdk.httpclient.HttpClient.log=headers,requests
  *       -Djdk.internal.httpclient.debug=true
- *       ProxySelectorTest
+ *       ${test.main.class}
  */
 
 import com.sun.net.httpserver.HttpServer;

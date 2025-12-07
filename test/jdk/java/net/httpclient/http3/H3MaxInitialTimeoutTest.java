@@ -71,15 +71,15 @@ import static org.testng.Assert.assertEquals;
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
  *                     -Djdk.httpclient.HttpClient.log=requests,responses,errors,quic:controls
  *                     -Djdk.httpclient.quic.maxInitialTimeout=1
- *                     H3MaxInitialTimeoutTest
+ *                     ${test.main.class}
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
  *                     -Djdk.httpclient.HttpClient.log=requests,responses,errors,quic:controls
  *                     -Djdk.httpclient.quic.maxInitialTimeout=2
- *                     H3MaxInitialTimeoutTest
+ *                     ${test.main.class}
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
  *                     -Djdk.httpclient.HttpClient.log=requests,responses,errors,quic:controls
  *                     -Djdk.httpclient.quic.maxInitialTimeout=2147483647
- *                     H3MaxInitialTimeoutTest
+ *                     ${test.main.class}
  */
 public class H3MaxInitialTimeoutTest implements HttpServerAdapters {
 

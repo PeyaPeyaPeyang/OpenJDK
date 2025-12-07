@@ -62,7 +62,7 @@ import static java.net.http.HttpOption.H3_DISCOVERY;
  * @build jdk.test.lib.net.SimpleSSLContext jdk.httpclient.test.lib.common.HttpServerAdapters
  *        jdk.httpclient.test.lib.http2.Http2TestServer
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
- *                    -Djdk.httpclient.HttpClient.log=headers,requests,responses,errors Response1xxTest
+ *                    -Djdk.httpclient.HttpClient.log=headers,requests,responses,errors ${test.main.class}
  */
 public class Response1xxTest implements HttpServerAdapters {
     private static final String EXPECTED_RSP_BODY = "Hello World";

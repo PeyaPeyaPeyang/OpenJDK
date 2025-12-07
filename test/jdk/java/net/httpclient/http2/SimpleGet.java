@@ -37,7 +37,7 @@
  *                     -Djdk.httpclient.HttpClient.log=errors
  *                     -XX:+CrashOnOutOfMemoryError
  *                     -XX:+HeapDumpOnOutOfMemoryError
- *                      SimpleGet
+ *                      ${test.main.class}
  */
 
 import java.io.IOException;

@@ -26,7 +26,7 @@
  * @build DummyWebSocketServer
  * @run testng/othervm
  *      -Djdk.internal.httpclient.websocket.debug=true
- *       AutomaticPong
+ *       ${test.main.class}
  */
 import jdk.internal.net.http.websocket.Frame;
 import org.testng.annotations.DataProvider;

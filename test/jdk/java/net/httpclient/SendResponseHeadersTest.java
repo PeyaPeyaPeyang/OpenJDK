@@ -27,7 +27,7 @@
  * @library /test/lib
  * @summary Check that sendResponseHeaders throws an IOException when headers
  *  have already been sent
- * @run testng/othervm SendResponseHeadersTest
+ * @run testng/othervm ${test.main.class}
  */
 
 import com.sun.net.httpserver.HttpExchange;

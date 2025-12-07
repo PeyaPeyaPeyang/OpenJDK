@@ -37,7 +37,7 @@
  *        jdk.test.lib.net.SimpleSSLContext
  *        jdk.test.lib.Platform
  *        jdk.test.lib.util.FileUtils
- * @run testng/othervm BodyHandlerOfFileDownloadTest
+ * @run testng/othervm ${test.main.class}
  */
 
 import jdk.test.lib.net.SimpleSSLContext;

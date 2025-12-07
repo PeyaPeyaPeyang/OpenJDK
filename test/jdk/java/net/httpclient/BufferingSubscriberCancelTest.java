@@ -45,7 +45,7 @@ import static org.testng.Assert.*;
 /*
  * @test
  * @summary Direct test for HttpResponse.BodySubscriber.buffering() cancellation
- * @run testng/othervm BufferingSubscriberCancelTest
+ * @run testng/othervm ${test.main.class}
  */
 
 public class BufferingSubscriberCancelTest {

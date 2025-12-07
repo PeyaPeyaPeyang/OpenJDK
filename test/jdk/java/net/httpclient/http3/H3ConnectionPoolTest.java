@@ -30,7 +30,7 @@
  *        jdk.test.lib.net.SimpleSSLContext
  * @run testng/othervm -Djdk.httpclient.HttpClient.log=ssl,requests,responses,errors,http3,quic:hs
  *                     -Djdk.internal.httpclient.debug=false
- *                     H3ConnectionPoolTest
+ *                     ${test.main.class}
  */
 
 import java.io.IOException;

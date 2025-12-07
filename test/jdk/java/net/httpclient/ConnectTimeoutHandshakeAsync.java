@@ -31,7 +31,7 @@ import org.testng.annotations.Test;
  * @bug 8208391
  * @library /test/lib
  * @build AbstractConnectTimeoutHandshake
- * @run testng/othervm ConnectTimeoutHandshakeAsync
+ * @run testng/othervm ${test.main.class}
  */
 
 public class ConnectTimeoutHandshakeAsync

@@ -43,7 +43,7 @@ import static org.testng.Assert.*;
 /*
  * @test
  * @summary Test for HttpResponse.BodySubscriber.buffering() onError/onComplete
- * @run testng/othervm BufferingSubscriberErrorCompleteTest
+ * @run testng/othervm ${test.main.class}
  */
 
 public class BufferingSubscriberErrorCompleteTest {

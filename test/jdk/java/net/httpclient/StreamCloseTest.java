@@ -30,7 +30,7 @@
  * @library /test/lib
  * @build jdk.httpclient.test.lib.common.HttpServerAdapters
  *        jdk.httpclient.test.lib.http2.Http2TestServer
- * @run testng/othervm StreamCloseTest
+ * @run testng/othervm ${test.main.class}
  */
 
 import java.io.InputStream;

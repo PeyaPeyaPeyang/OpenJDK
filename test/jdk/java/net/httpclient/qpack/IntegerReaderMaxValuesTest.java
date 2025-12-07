@@ -40,7 +40,7 @@ import java.util.stream.IntStream;
  *          java.net.http/jdk.internal.net.http.qpack.readers
  *          java.net.http/jdk.internal.net.http.qpack.writers
  * @run testng/othervm -Djdk.internal.httpclient.qpack.log.level=INFO
- *                     IntegerReaderMaxValuesTest
+ *                     ${test.main.class}
  */
 public class IntegerReaderMaxValuesTest {
     @DataProvider

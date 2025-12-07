@@ -34,7 +34,7 @@ import static org.testng.Assert.*;
  * @summary Tests jdk.internal.net.http.quic.streams,CryptoWriterQueue
  * @modules java.net.http/jdk.internal.net.http.quic.streams
  * java.net.http/jdk.internal.net.http.quic.frames
- * @run testng CryptoWriterQueueTest
+ * @run testng ${test.main.class}
  */
 public class CryptoWriterQueueTest {
 

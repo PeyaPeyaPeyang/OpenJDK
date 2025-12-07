@@ -41,7 +41,7 @@
  *                     -Djdk.httpclient.retryOnStreamlimit=50
  *                     -Djdk.httpclient.HttpClient.log=errors,http3,quic:retransmit
  *                     -Dsimpleget.requests=100
- *                     H3MultipleConnectionsToSameHost
+ *                     ${test.main.class}
  * @summary test multiple connections and concurrent requests with blocking IO and virtual threads
  */
 /*

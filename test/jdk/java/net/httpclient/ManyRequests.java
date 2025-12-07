@@ -33,13 +33,13 @@
  * @compile ../../../com/sun/net/httpserver/LogFilter.java
  * @compile ../../../com/sun/net/httpserver/EchoHandler.java
  * @compile ../../../com/sun/net/httpserver/FileServerHandler.java
- * @run main/othervm/timeout=160 -Djdk.httpclient.HttpClient.log=ssl,channel ManyRequests
- * @run main/othervm/timeout=160 -Djdk.httpclient.HttpClient.log=channel -Dtest.insertDelay=true ManyRequests
- * @run main/othervm/timeout=160 -Djdk.httpclient.HttpClient.log=channel -Dtest.chunkSize=64 ManyRequests
- * @run main/othervm/timeout=160 -Djdk.httpclient.HttpClient.log=channel -Dtest.insertDelay=true -Dtest.chunkSize=64 ManyRequests
+ * @run main/othervm/timeout=160 -Djdk.httpclient.HttpClient.log=ssl,channel ${test.main.class}
+ * @run main/othervm/timeout=160 -Djdk.httpclient.HttpClient.log=channel -Dtest.insertDelay=true ${test.main.class}
+ * @run main/othervm/timeout=160 -Djdk.httpclient.HttpClient.log=channel -Dtest.chunkSize=64 ${test.main.class}
+ * @run main/othervm/timeout=160 -Djdk.httpclient.HttpClient.log=channel -Dtest.insertDelay=true -Dtest.chunkSize=64 ${test.main.class}
  * @summary Send a large number of requests asynchronously
  */
- // * @run main/othervm/timeout=40 -Djdk.httpclient.HttpClient.log=ssl,channel ManyRequests
+ // * @run main/othervm/timeout=40 -Djdk.httpclient.HttpClient.log=ssl,channel ${test.main.class}
 
 import com.sun.net.httpserver.HttpsConfigurator;
 import com.sun.net.httpserver.HttpsParameters;

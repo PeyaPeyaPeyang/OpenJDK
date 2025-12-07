@@ -56,7 +56,7 @@ import static org.testng.Assert.assertNotEquals;
  *          java.net.http/jdk.internal.net.http.http3.frames
  *          java.net.http/jdk.internal.net.http.http3
  * @build EncoderDecoderConnector
- * @run testng/othervm -Djdk.internal.httpclient.qpack.log.level=EXTRA UnacknowledgedInsertionTest
+ * @run testng/othervm -Djdk.internal.httpclient.qpack.log.level=EXTRA ${test.main.class}
  */
 public class UnacknowledgedInsertionTest {
 

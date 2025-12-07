@@ -61,7 +61,7 @@ import static org.testng.Assert.*;
  * @summary HttpClient[.Builder] API and behaviour checks
  * @library /test/lib
  * @build jdk.test.lib.net.SimpleSSLContext
- * @run testng HttpClientBuilderTest
+ * @run testng ${test.main.class}
  */
 
 public class HttpClientBuilderTest {

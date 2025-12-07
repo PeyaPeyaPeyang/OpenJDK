@@ -36,7 +36,7 @@ import static org.testng.Assert.expectThrows;
 
 /**
  * @test
- * @run testng PacketNumbersTest
+ * @run testng ${test.main.class}
  */
 public class PacketNumbersTest {
 

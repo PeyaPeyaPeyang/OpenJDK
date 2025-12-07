@@ -48,7 +48,7 @@ import static org.testng.Assert.assertEquals;
  *       In particular tests that surrogate characters are handled
  *       correctly.
  * @modules java.net.http java.logging
- * @run testng/othervm LineStreamsAndSurrogatesTest
+ * @run testng/othervm ${test.main.class}
  */
 
 public class LineStreamsAndSurrogatesTest {

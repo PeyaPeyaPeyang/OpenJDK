@@ -67,7 +67,7 @@ import static org.testng.Assert.*;
  * @build LightWeightHttpServer
  * @build jdk.test.lib.Platform
  * @build jdk.test.lib.util.FileUtils
- * @run testng/othervm RequestBodyTest
+ * @run testng/othervm ${test.main.class}
  */
 public class RequestBodyTest {
 

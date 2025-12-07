@@ -78,7 +78,7 @@ import static java.lang.System.out;
  * @compile ../ReferenceTracker.java
  * @run testng/othervm -Djdk.internal.httpclient.debug=true
  *                     -Djdk.httpclient.HttpClient.log=requests,responses,errors
- *                     GetHTTP3Test
+ *                     ${test.main.class}
  * @summary Basic HTTP/3 GET test
  */
 //                     -Djdk.httpclient.http3.maxDirectConnectionTimeout=2500

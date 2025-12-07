@@ -32,7 +32,7 @@
  * @run testng/othervm/timeout=960
  *      -Djdk.httpclient.HttpClient.log=errors,requests,headers
  *      -Djdk.internal.httpclient.debug=false
- *      H3ServerPush
+ *      ${test.main.class}
  * @summary This is a clone of http2/ServerPush but for HTTP/3
  */
 

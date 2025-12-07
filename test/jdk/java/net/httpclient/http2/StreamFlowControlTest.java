@@ -29,7 +29,7 @@
  * @run testng/othervm  -Djdk.internal.httpclient.debug=true
  *                      -Djdk.httpclient.connectionWindowSize=65535
  *                      -Djdk.httpclient.windowsize=16384
- *                      StreamFlowControlTest
+ *                      ${test.main.class}
  */
 
 import java.io.IOException;

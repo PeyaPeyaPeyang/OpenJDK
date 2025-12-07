@@ -29,7 +29,7 @@ import org.testng.annotations.Test;
  * @test
  * @summary Tests for connection related timeouts
  * @bug 8208391
- * @run testng/othervm ConnectTimeoutWithProxyAsync
+ * @run testng/othervm ${test.main.class}
  */
 
 public class ConnectTimeoutWithProxyAsync extends AbstractConnectTimeout {

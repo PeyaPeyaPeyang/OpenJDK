@@ -27,7 +27,7 @@
  *          when SSL context is not valid.
  * @library /test/lib
  * @build jdk.test.lib.net.SimpleSSLContext
- * @run testng/othervm -Djdk.internal.httpclient.debug=true InvalidSSLContextTest
+ * @run testng/othervm -Djdk.internal.httpclient.debug=true ${test.main.class}
  */
 
 import java.io.IOException;

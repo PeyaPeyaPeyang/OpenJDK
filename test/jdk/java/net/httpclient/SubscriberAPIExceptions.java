@@ -48,7 +48,7 @@ import static org.testng.Assert.assertThrows;
  * @test
  * @summary Basic tests for API specified exceptions from Handler,
  *          and Subscriber convenience static factory methods.
- * @run testng SubscriberAPIExceptions
+ * @run testng ${test.main.class}
  */
 
 public class SubscriberAPIExceptions {

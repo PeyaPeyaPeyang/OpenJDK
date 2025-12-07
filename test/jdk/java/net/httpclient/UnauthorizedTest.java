@@ -34,7 +34,7 @@
  *        jdk.test.lib.net.SimpleSSLContext ReferenceTracker
  * @run testng/othervm
  *       -Djdk.httpclient.HttpClient.log=headers
- *       UnauthorizedTest
+ *       ${test.main.class}
  */
 
 import jdk.test.lib.net.SimpleSSLContext;

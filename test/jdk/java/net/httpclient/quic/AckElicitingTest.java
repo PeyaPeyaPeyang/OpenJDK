@@ -89,7 +89,7 @@ import static org.testng.Assert.assertNull;
  *          a frame is ACK-eliciting.
  * @library /test/lib
  * @run testng AckElicitingTest
- * @run testng/othervm -Dseed=-7997973196290088038 AckElicitingTest
+ * @run testng/othervm -Dseed=-7997973196290088038 ${test.main.class}
  */
 public class AckElicitingTest {
 

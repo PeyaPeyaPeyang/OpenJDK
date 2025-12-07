@@ -29,7 +29,7 @@
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.httpclient.test.lib.common.HttpServerAdapters
  *        jdk.test.lib.net.SimpleSSLContext
- * @run testng/othervm FilePublisherTest
+ * @run testng/othervm ${test.main.class}
  */
 
 import jdk.test.lib.net.SimpleSSLContext;

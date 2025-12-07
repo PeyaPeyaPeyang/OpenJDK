@@ -28,7 +28,7 @@
  * @build jdk.test.lib.net.SimpleSSLContext jdk.httpclient.test.lib.common.TestServerConfigurator
  * @modules java.net.http/jdk.internal.net.http.common
  *          jdk.httpserver
- * @run testng/othervm ExpectContinue
+ * @run testng/othervm ${test.main.class}
  */
 
 import com.sun.net.httpserver.HttpExchange;

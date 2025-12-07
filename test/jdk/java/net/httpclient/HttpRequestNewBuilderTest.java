@@ -56,7 +56,7 @@ import static org.testng.Assert.fail;
 * @test
 * @bug 8252304 8276559
 * @summary HttpRequest.newBuilder(HttpRequest) API and behaviour checks
-* @run testng/othervm HttpRequestNewBuilderTest
+* @run testng/othervm ${test.main.class}
 */
 public class HttpRequestNewBuilderTest {
     static final Class<NullPointerException> NPE = NullPointerException.class;

@@ -30,7 +30,7 @@
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.test.lib.net.SimpleSSLContext ReferenceTracker
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
- * @run testng/othervm InvalidSubscriptionRequest
+ * @run testng/othervm ${test.main.class}
  */
 
 import com.sun.net.httpserver.HttpServer;

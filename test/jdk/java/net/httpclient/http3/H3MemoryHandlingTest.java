@@ -66,7 +66,7 @@ import static org.testng.Assert.*;
  *              -Djdk.internal.httpclient.debug=true
  *              -Djdk.httpclient.HttpClient.log=requests,responses,errors
  *              -Djdk.httpclient.quic.maxStreamInitialData=16384
- *              -Djdk.httpclient.quic.streamBufferSize=2048 H3MemoryHandlingTest
+ *              -Djdk.httpclient.quic.streamBufferSize=2048 ${test.main.class}
  */
 public class H3MemoryHandlingTest implements HttpServerAdapters {
 

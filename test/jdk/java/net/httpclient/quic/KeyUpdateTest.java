@@ -81,7 +81,7 @@ import static org.testng.Assert.assertTrue;
  * @run testng/othervm -Djava.security.properties=${test.src}/quic-tls-keylimits-java.security
  *                     -Djdk.internal.httpclient.debug=true
  *                     -Djavax.net.debug=all
- *                     KeyUpdateTest
+ *                     ${test.main.class}
  */
 public class KeyUpdateTest {
 
