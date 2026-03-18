@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015, 2025, Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 2015, 2026, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
  * This code is free software; you can redistribute it and/or modify it
@@ -27,10 +27,10 @@
  * @library /test/lib /test/jdk/java/net/httpclient/lib
  * @build jdk.test.lib.net.SimpleSSLContext jdk.httpclient.test.lib.common.TestUtil
  *        jdk.httpclient.test.lib.http2.Http2TestServer
- * @run testng/othervm -XX:+CrashOnOutOfMemoryError SimpleGet
+ * @run testng/othervm -XX:+CrashOnOutOfMemoryError ${test.main.class}
  * @run testng/othervm -XX:+CrashOnOutOfMemoryError
  *                     -Dsimpleget.repeat=1 -Dsimpleget.chunks=1 -Dsimpleget.requests=1000
- *                     SimpleGet
+ *                      ${test.main.class}
  * @run testng/othervm -Dsimpleget.requests=150
  *                     -Dsimpleget.chunks=16384
  *                     -Djdk.httpclient.redirects.retrylimit=5

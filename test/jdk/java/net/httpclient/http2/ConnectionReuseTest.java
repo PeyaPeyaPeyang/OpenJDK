@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023, Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 2023, 2026, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
  * This code is free software; you can redistribute it and/or modify it
@@ -62,7 +62,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
  *        jdk.test.lib.net.IPSupport
  *        jdk.httpclient.test.lib.common.HttpServerAdapters
  *
- * @run junit ConnectionReuseTest
+ * @run junit ${test.main.class}
  * @run junit/othervm -Djava.net.preferIPv6Addresses=true
  *                    -Djdk.internal.httpclient.debug=true ${test.main.class}
  */
